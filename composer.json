@@ -1,0 +1,49 @@
+{
+    "name": "yaroslawww/nova-forms-entries",
+    "description": "Nova helper to implement laravel-forms-entries package.",
+    "keywords": [
+        "forms",
+        "forms-entries"
+    ],
+    "homepage": "https://github.com/yaroslawww/nova-forms-entries",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Georgitsa",
+            "email": "yaroslav.georgitsa@gmail.com",
+            "homepage": "https://github.com/yaroslawww",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "yaroslawww/laravel-forms-entries": "^2.0",
+        "laravel/nova": "^3.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.3",
+        "orchestra/testbench": "^6.23",
+        "psalm/plugin-laravel": "^1.5",
+        "vimeo/psalm": "^4.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "NovaFormEntries\\": "src"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
