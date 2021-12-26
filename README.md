@@ -1,8 +1,10 @@
-# Laravel Forms Entries
+# Laravel Nove Forms Entries
 
-[![Packagist License](https://img.shields.io/packagist/l/yaroslawww/nova-forms-entries?color=%234dc71f)](https://github.com/yaroslawww/nova-forms-entries/blob/master/LICENSE.md)
+![Packagist License](https://img.shields.io/packagist/l/yaroslawww/nova-forms-entries?color=%234dc71f)
 [![Packagist Version](https://img.shields.io/packagist/v/yaroslawww/nova-forms-entries)](https://packagist.org/packages/yaroslawww/nova-forms-entries)
+[![Total Downloads](https://img.shields.io/packagist/dt/yaroslawww/nova-forms-entries)](https://packagist.org/packages/yaroslawww/nova-forms-entries)
 [![Build Status](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/badges/build.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/build-status/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/?branch=master)
 
 Nova helper to implement laravel-forms-entries package.
