@@ -1,4 +1,4 @@
-# Laravel Nove Forms Entries
+# Laravel Nova Forms Entries
 
 ![Packagist License](https://img.shields.io/packagist/l/yaroslawww/nova-forms-entries?color=%234dc71f)
 [![Packagist Version](https://img.shields.io/packagist/v/yaroslawww/nova-forms-entries)](https://packagist.org/packages/yaroslawww/nova-forms-entries)
@@ -8,6 +8,11 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/?branch=master)
 
 Nova helper to implement laravel-forms-entries package.
+
+| Nova | Package |
+|------|------|
+| V1   | V1   |
+| V4   | V2   |
 
 ## Installation
 
@@ -59,7 +64,6 @@ class FormEntry extends Resource
     }
 }
 ```
-
 
 ## Credits
 
