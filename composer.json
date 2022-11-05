@@ -23,7 +23,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "yaroslawww/laravel-forms-entries": "^2.1",
+        "yaroslawww/laravel-forms-entries": "^3.0",
         "laravel/nova": "^4.0"
     },
     "require-dev": {
