@@ -1,11 +1,11 @@
 # Laravel Nova Forms Entries
 
-![Packagist License](https://img.shields.io/packagist/l/yaroslawww/nova-forms-entries?color=%234dc71f)
-[![Packagist Version](https://img.shields.io/packagist/v/yaroslawww/nova-forms-entries)](https://packagist.org/packages/yaroslawww/nova-forms-entries)
-[![Total Downloads](https://img.shields.io/packagist/dt/yaroslawww/nova-forms-entries)](https://packagist.org/packages/yaroslawww/nova-forms-entries)
-[![Build Status](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/badges/build.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/build-status/master)
-[![Code Coverage](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/nova-forms-entries/?branch=master)
+![Packagist License](https://img.shields.io/packagist/l/think.studio/nova-forms-entries?color=%234dc71f)
+[![Packagist Version](https://img.shields.io/packagist/v/think.studio/nova-forms-entries)](https://packagist.org/packages/think.studio/nova-forms-entries)
+[![Total Downloads](https://img.shields.io/packagist/dt/think.studio/nova-forms-entries)](https://packagist.org/packages/think.studio/nova-forms-entries)
+[![Build Status](https://scrutinizer-ci.com/g/dev-think-one/nova-forms-entries/badges/build.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/nova-forms-entries/build-status/main)
+[![Code Coverage](https://scrutinizer-ci.com/g/dev-think-one/nova-forms-entries/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/nova-forms-entries/?branch=main)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dev-think-one/nova-forms-entries/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/nova-forms-entries/?branch=main)
 
 Nova helper to implement laravel-forms-entries package.
 
@@ -18,13 +18,13 @@ Nova helper to implement laravel-forms-entries package.
 
 Install the package via composer:
 
-```bash
-composer require yaroslawww/nova-forms-entries
+```shell
+composer require think.studio/nova-forms-entries
 ```
 
 ## Usage
 
-```injectablephp
+```php
 use App\Nova\Resource;
 use App\Nova\Resources\Staff;
 use App\Nova\Resources\Contact;
