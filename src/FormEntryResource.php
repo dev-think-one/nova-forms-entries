@@ -42,7 +42,7 @@ trait FormEntryResource
                 })->hideFromIndex(),
 
             Textarea::make(__('Content'), 'content')
-                    ->displayUsing(function ($val, FormEntry $model) {
+                    ->resolveUsing(function ($val, FormEntry $model) {
                         return $model->content->stringify();
                     })->hideFromIndex(),
         ];
